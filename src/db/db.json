@@ -56,5 +56,19 @@
         "maxSal": 80000
       }
     }
+  ],
+  "appliedJobs": [
+    {
+      "cmp_id": 1,
+      "title": "Manager",
+      "cmpname": "Changan",
+      "city": "Karachi"
+    },
+    {
+      "cmp_id": 2,
+      "title": "Senior Manager",
+      "cmpname": "Honda",
+      "city": "Lahore"
+    }
   ]
 }

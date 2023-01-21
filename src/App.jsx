@@ -23,7 +23,8 @@ function App() {
         <Route path='/' element={<Layout />}>
           <Route path='/' element={<Home />} />
           <Route path='cmp/dashboard' element={<Jobs />} />
-          <Route path='emp/jobDetail/:id' element={<JobDetail />} />
+          {/* <Route path='emp/jobDetail/:id' element={<JobDetail />} /> */}
+          <Route path='jobDetail' element={<JobDetail />} />
           <Route path='jobapply/:jobId' element={<JobApplication />} />
           <Route path='emp/apply/' element={<Submitted />} />
           <Route path='postCV' element={<PostCV />} />
